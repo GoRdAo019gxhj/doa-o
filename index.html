@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ajude Pedro Henrique a transformar sua vida. Uma história de superação e esperança que merece seu apoio.">
+    <meta name="keywords" content="ajuda, Pedro Henrique, transformação, superação, esperança, doação">
+    <meta name="author" content="Pedro Henrique Santana Teixeira">
+    <title>Ajude Pedro a Realizar Seu Sonho</title>
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.3/dist/css/splide.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="text-center py-5">
+        <div class="container">
+            <h1 class="animate__animated animate__fadeInDown">🌟 Faça Parte da Transformação 🌟</h1>
+            <p class="animate__animated animate__fadeInUp">Ajude Pedro Henrique a transformar sonhos em realidade. 🙌</p>
+        </div>
+    </header>
+
+    <main class="container py-5">
+        <section class="hero text-center">
+            <h2 class="mb-4">📖 A Jornada de Pedro</h2>
+            <p>
+                Meu nome é <strong>Pedro Henrique Santana Teixeira</strong>. Desde pequeno, minha vida foi marcada por desafios 
+                que pareciam impossíveis de superar. Cresci em um vilarejo humilde, onde cada conquista era uma batalha vencida.  
+                Hoje, eu tenho um grande sonho: alcançar a estabilidade financeira e retribuir ao mundo a generosidade que me ajudou.
+            </p>
+            <p>
+                Sua ajuda pode ser o primeiro passo para mudar não apenas minha vida, mas inspirar outras pessoas a nunca desistirem de seus sonhos.
+            </p>
+            <div class="pix-info bg-warning text-dark p-3 rounded mt-4">
+                <h3>💳 <strong>Chave PIX:</strong> <span id="pix-key">199880181818</span></h3>
+                <button class="btn btn-dark mt-2 copy-btn" aria-label="Copiar chave PIX">📋 Copiar PIX</button>
+                <span id="copy-msg" class="text-success d-none">PIX copiado com sucesso! ✅</span>
+            </div>
+        </section>
+
+        <section class="splide mt-5">
+            <div class="splide__track">
+                <ul class="splide__list">
+                    <li class="splide__slide">
+                        <h3>Superação</h3>
+                        <p>Pedro começou consertando rádios e hoje sonha em criar algo maior para sua comunidade.</p>
+                    </li>
+                    <li class="splide__slide">
+                        <h3>Gratidão</h3>
+                        <p>“Cada doação é uma luz no caminho de quem acredita em dias melhores.”</p>
+                    </li>
+                    <li class="splide__slide">
+                        <h3>Transformação</h3>
+                        <p>Com sua ajuda, Pedro quer inspirar outros jovens a nunca desistirem.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="photo-carousel splide mt-5">
+            <div class="splide__track">
+                <ul class="splide__list">
+                    <li class="splide__slide"><img src="https://i.ibb.co/yRj70ns/5516997695557-1734378572888.jpg" alt="Imagem 1"></li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="share mt-5 text-center">
+            <h2 class="mb-4">📢 Compartilhe e Espalhe a Palavra</h2>
+            <button class="btn btn-primary me-2" id="share-facebook" aria-label="Compartilhar no Facebook">
+                <i class="fab fa-facebook-f"></i> Facebook
+            </button>
+            <button class="btn btn-info me-2" id="share-twitter" aria-label="Compartilhar no Twitter">
+                <i class="fab fa-twitter"></i> Twitter
+            </button>
+            <button class="btn btn-success" id="share-whatsapp" aria-label="Compartilhar no WhatsApp">
+                <i class="fab fa-whatsapp"></i> WhatsApp
+            </button>
+        </section>
+    </main>
+
+    <footer class="text-center py-4 bg-dark text-white">
+        <p>✨ Sua ajuda transforma vidas. Obrigado por acreditar! ❤️</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.3/dist/js/splide.min.js"></script>
+    <script src="scripts.js"></script>
+    <script>
+        new Splide('.splide').mount();
+    </script>
+</body>
+</html>
